@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package com.mycompany.jornadaespacial;
+package com.jornadaespacial.jornadaespacial;
 
 /**
  *
@@ -47,11 +47,11 @@ public class JornadaEspacial_Interface extends javax.swing.JFrame {
         setMinimumSize(new java.awt.Dimension(1024, 950));
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        loginTextField.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
+        loginTextField.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 18)); // NOI18N
         loginTextField.setForeground(new java.awt.Color(153, 153, 153));
         loginTextField.setHorizontalAlignment(javax.swing.JTextField.LEFT);
         loginTextField.setText("\"Digite seu nome de usuário\"");
-        loginTextField.setBorder(javax.swing.BorderFactory.createEtchedBorder(new java.awt.Color(0, 255, 255), null));
+        loginTextField.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(204, 204, 255), 2, true));
         loginTextField.setOpaque(true);
         loginTextField.setSelectionColor(new java.awt.Color(255, 255, 255));
         loginTextField.addActionListener(new java.awt.event.ActionListener() {
@@ -59,49 +59,49 @@ public class JornadaEspacial_Interface extends javax.swing.JFrame {
                 loginTextFieldActionPerformed(evt);
             }
         });
-        getContentPane().add(loginTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 310, 430, 40));
+        getContentPane().add(loginTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 380, 430, 40));
 
-        senhaPasswordField.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        senhaPasswordField.setText("\"Digite sua senha\"");
-        senhaPasswordField.setBorder(javax.swing.BorderFactory.createEtchedBorder(new java.awt.Color(0, 255, 255), null));
+        senhaPasswordField.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 18)); // NOI18N
+        senhaPasswordField.setText("Senha");
+        senhaPasswordField.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(204, 204, 255), 2, true));
         senhaPasswordField.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 senhaPasswordFieldActionPerformed(evt);
             }
         });
-        getContentPane().add(senhaPasswordField, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 370, 430, 40));
+        getContentPane().add(senhaPasswordField, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 450, 430, 40));
 
-        cadastrarButton.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        cadastrarButton.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 14)); // NOI18N
         cadastrarButton.setText("Primeira Jornada?");
-        cadastrarButton.setBorder(javax.swing.BorderFactory.createEtchedBorder(new java.awt.Color(0, 255, 255), null));
+        cadastrarButton.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(204, 204, 255), 2, true));
         cadastrarButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 cadastrarButtonActionPerformed(evt);
             }
         });
-        getContentPane().add(cadastrarButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 450, 190, 30));
+        getContentPane().add(cadastrarButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 530, 190, 30));
 
-        iniciarjornadaButton.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        iniciarjornadaButton.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 14)); // NOI18N
         iniciarjornadaButton.setText("Iniciar Jornada!");
-        iniciarjornadaButton.setBorder(javax.swing.BorderFactory.createEtchedBorder(new java.awt.Color(0, 255, 255), null));
+        iniciarjornadaButton.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(204, 204, 255), 2, true));
         iniciarjornadaButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 iniciarjornadaButtonActionPerformed(evt);
             }
         });
-        getContentPane().add(iniciarjornadaButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 510, 190, 30));
+        getContentPane().add(iniciarjornadaButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 580, 190, 30));
 
-        esquecerButton.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        esquecerButton.setText("Esqueci minha senha?");
-        esquecerButton.setBorder(javax.swing.BorderFactory.createEtchedBorder(new java.awt.Color(0, 255, 255), null));
+        esquecerButton.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 14)); // NOI18N
+        esquecerButton.setText("Esqueceu a senha?");
+        esquecerButton.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(204, 204, 255), 2, true));
         esquecerButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 esquecerButtonActionPerformed(evt);
             }
         });
-        getContentPane().add(esquecerButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 450, 190, 30));
+        getContentPane().add(esquecerButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 530, 190, 30));
 
-        exibirCheckBox.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        exibirCheckBox.setFont(new java.awt.Font("Yu Gothic UI Semibold", 0, 14)); // NOI18N
         exibirCheckBox.setForeground(new java.awt.Color(255, 255, 255));
         exibirCheckBox.setText("Exibir senha");
         exibirCheckBox.setBorder(javax.swing.BorderFactory.createEtchedBorder(new java.awt.Color(0, 255, 255), null));
@@ -111,12 +111,12 @@ public class JornadaEspacial_Interface extends javax.swing.JFrame {
                 exibirCheckBoxActionPerformed(evt);
             }
         });
-        getContentPane().add(exibirCheckBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 420, 110, 20));
+        getContentPane().add(exibirCheckBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 500, 110, 20));
 
         tituloLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Título 2.png"))); // NOI18N
         getContentPane().add(tituloLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 40, -1, -1));
 
-        fundoLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Fundo 2.jpg"))); // NOI18N
+        fundoLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Fundo.jpg"))); // NOI18N
         fundoLabel.setToolTipText("");
         getContentPane().add(fundoLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, 1020, 1020));
 
