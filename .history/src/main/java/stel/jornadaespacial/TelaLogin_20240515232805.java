@@ -266,7 +266,7 @@ public class TelaLogin extends javax.swing.JFrame {
                 JOptionPane.showMessageDialog(null, "Jornada iniciada!");
             }
             else{
-                JOptionPane.showMessageDialog(null, "Combinação de Viajante e senha não encontrada!");
+                JOptionPane.showMessageDialog(null, "usuário ou senha inválida");
             }
         }
         catch(Exception e){

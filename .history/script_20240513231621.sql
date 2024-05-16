@@ -27,10 +27,10 @@ SELECT * FROM tb_jornada_espacial_usuarios;
 
 /* cadastrar um usuário */
 INSERT INTO tb_jornada_espacial_usuarios 
-(cod_usuario, login, senha, tipo, nome_completo, idade, sexo, email, cpf, telefone)
+(cod_usuario, login, senha_hash, tipo, nome_completo, idade, sexo, email, cpf, telefone)
 VALUES 
-( 1 , -- cod_usuario
-  'Victor', -- login
+( 2 , -- cod_usuario
+  'joao', -- login
   'java123', -- senha
   'admin', -- tipo
   'Victor Hugo Martins Millan', -- nome_completo
@@ -44,17 +44,16 @@ VALUES
 /* editar dados de um usuário */
 UPDATE tb_jornada_espacial_usuarios
 SET 
-cod_usuario= 1,
 login= 'Victor', 
 senha='java123', 
-tipo='admin', 
+tipo='Admin', 
 nome_completo='Victor Hugo Martins Millan',
 idade= 21,
 sexo= 'Homem',
 email= 'victorhugomartinsmillan@hotmail.com',
 cpf= '2486871782',
 telefone= '1140028922'
-WHERE cod_usuario = 2;
+WHERE cod_usuario = 1;
 
 /* apagar um usuário */
 DELETE FROM tb_jornada_espacial_usuarios
@@ -120,4 +119,4 @@ DELETE FROM tb_jornada_espacial_eventos
 WHERE cod_evento = 1;
 
 /* Apagar tabela */
-DROP TABLE IF EXISTS tb_jornada_espacial_usuarios;
+DROP TABLE IF EXISTS tb_jornada_espacial_eventos;
