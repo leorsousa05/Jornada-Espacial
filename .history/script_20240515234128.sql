@@ -44,7 +44,7 @@ VALUES
 /* editar dados de um usuário */
 UPDATE tb_jornada_espacial_usuarios
 SET 
-cod_usuario= 1,
+cod_usuario=1
 login= 'Victor', 
 senha='java123', 
 tipo='admin', 
